@@ -50,6 +50,21 @@ public class Main {
     }
 
     private static void cadastrarVeiculo(Scanner leia, List<Veiculo> veiculos) {
+
+        System.out.println("Carro - 1");
+        System.out.println("Moto - 2");
+        System.out.println("Mobilete - 3");
+        int tipo = leia.nextInt();
+        switch (tipo){
+            case 1:
+
+                break;
+
+
+        }
+
+
+
         System.out.print("Marca: ");
         String marca = leia.nextLine();
         System.out.print("Placa: ");
